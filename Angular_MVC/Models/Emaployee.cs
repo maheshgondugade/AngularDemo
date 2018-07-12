@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Angular_MVC.Models
 {
-    public class Emaployee
+    public class Employee
     {
         public int ID { get; set; }
 
@@ -15,6 +15,6 @@ namespace Angular_MVC.Models
 
         public string Department { get; set; }
 
-        public string city { get; set; }
+        public string City { get; set; }
     }
 }
